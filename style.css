@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    /* Базовый стиль текста */
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    line-height: normal;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: 400;
+
+    >b {
+        font-weight: bold;
+    }
+}
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+    background: #E7CFCF;
+}
+
+/* Заголовок */
+header {
+    padding: 54px 160px 121px;
+    background: #222;
+}
+
+/* Навигация в заголовке */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+
+    >ul {
+        display: flex;
+
+        >li {
+            margin: auto 0;
+            padding-right: 30px;
+
+            >a {
+                color: #D4D4D4;
+            }
+        }
+    }
+}
+
+.logo {
+    margin-right: 32px;
+}
+
+/* Луна */
+.moon {
+    margin-top: 24px;
+    display: flex;
+
+    >div {
+        width: 254px;
+        margin: 90px 160px 0 auto;
+
+        >h2 {
+            color: white;
+            font-family: Courier;
+            font-size: 43px;
+            font-weight: 700;
+        }
+
+        >p {
+            margin: 32px 0 54px 0;
+            color: #D4D4D4;
+        }
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    background: #FFCB06;
+
+    >* {
+        margin: 17px 17px 16px 38px;
+
+        text-transform: uppercase;
+    }
+}
+
+/* Контент */
+.content1 {
+    padding: 85px 163px 78px;
+    background: #131313;
+
+    display: flex;
+    justify-content: space-between;
+
+    >div {
+        width: 170px;
+        height: 170px;
+
+        >p {
+            padding-top: 34px;
+            color: #D4D4D4;
+        }
+    }
+}
+
+.content2 {
+    padding: 80px 147px 126px 160px;
+    background: white;
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+
+        .text {
+            width: 455px;
+
+            >h2 {
+                margin: 0 79px 44px 0;
+
+                font-family: Courier;
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            >p {
+                margin-bottom: 15px;
+            }
+        }
+
+        .list {
+            margin-top: 52px;
+            width: 455px;
+
+            >ul {
+                list-style: url("img/Ellipse.svg");
+
+
+                >li {
+                    margin: 0 0 20px 15px;
+                    padding-left: 15px;
+                }
+            }
+
+            >h2 {
+                margin-bottom: 27px;
+
+                font-family: Courier;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+footer {
+    background: #131313;
+    padding: 60px 160px 88px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .flex-col {
+        width: 180px;
+        height: 206px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .logo-text {
+            display: flex;
+
+            >p {
+                margin: auto 0;
+                color: #D4D4D4;
+            }
+        }
+
+        .corp {
+            color: #555;
+        }
+
+        .footer-text {
+            margin-top: 25px;
+
+            >a {
+                color: #D4D4D4;
+                text-transform: uppercase;
+            }
+        }
+
+        .line {
+            width: 180px;
+            height: 1px;
+            background: #555;
+        }
+
+        >ul {
+            margin-top: 30px;
+
+            >li {
+                margin-top: 20px;
+                list-style: none;
+
+                >a {
+                    color: #888;
+                }
+            }
+        }
+    }
+
+}
