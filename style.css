@@ -39,6 +39,7 @@ header {
         >li {
             margin: auto 0;
             padding-right: 30px;
+            list-style: none;
 
             >a {
                 color: #D4D4D4;
